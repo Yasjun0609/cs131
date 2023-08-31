@@ -1,0 +1,40 @@
+    1  wget www.github.com
+    2  passwd
+    3  wget www.github.com
+    4  cd
+    5  cd/home
+    6  cd/home/sjsu
+    7  cd /home/sjsu
+    8  cd
+    9  cd /Home/sjsu
+   10  cd /desktop
+   11  cd ~/home
+   12  mkdir cs131
+   13  cd /cs131
+   14  cd cs131/
+   15  git init
+   16  touch jun.txt
+   17  ls
+   18  git status
+   19  cd
+   20  mkdir Worksheet1
+   21  cd
+   22  cd Worksheet1
+   23  cd
+   24  cd cs131
+   25  cd
+   26  ls
+   27  cd cs131
+   28  ls
+   29  mkdir Worksheet1
+   30  ls
+   31  cd
+   32  ls
+   33  rmdir Worksheet1
+   34  ls
+   35  cd cs131
+   36  ls
+   37  cd Worksheet1
+   38  ls
+   39  wget www.github.com
+   40  history > cmds.log
