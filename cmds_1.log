@@ -1,0 +1,108 @@
+    1  wget www.github.com
+    2  passwd
+    3  wget www.github.com
+    4  cd
+    5  cd/home
+    6  cd/home/sjsu
+    7  cd /home/sjsu
+    8  cd
+    9  cd /Home/sjsu
+   10  cd /desktop
+   11  cd ~/home
+   12  mkdir cs131
+   13  cd /cs131
+   14  cd cs131/
+   15  git init
+   16  touch jun.txt
+   17  ls
+   18  git status
+   19  cd
+   20  mkdir Worksheet1
+   21  cd
+   22  cd Worksheet1
+   23  cd
+   24  cd cs131
+   25  cd
+   26  ls
+   27  cd cs131
+   28  ls
+   29  cd Worksheet1
+   30  ls
+   31  mkdir ~/.ssh
+   32  ls
+   33  cat id_rsa.pub.pub
+   34  ls
+   35  rmdir ~/.ssh
+   36  git init
+   37  ls
+   38  rmdir /.ssh
+   39  rmdir ~/.ssh
+   40  cd ~/.ssh
+   41  ls
+   42  cat id_rsa.pub
+   43  rm -r
+   44  man rm
+   45  rm cat id_rsa.pub
+   46  rm cat id_rsa
+   47  ssh-keygen
+   48  cat id_rsa.pub
+   49  git status
+   50  cd
+   51  l
+   52  ls
+   53  cd cs131
+   54  ls
+   55  cd Worksheet1
+   56  ls
+   57  git add .
+   58  git status
+   59  git commin -m "My first commit"
+   60  git commit -m "My first commit"
+   61  dksxowns69@gmail.com
+   62  git config --global user.email "dksxowns69@gmail.com"
+   63  git config --global user.name "Yasjun0609"
+   64  git commit -m "My fist commit"
+   65  git push
+   66  git remote add Yasjun0609 git@github.com:Yasjun0609/cs131.git
+   67  git push
+   68  git remote add Yasjun0609 https://github.com/Yasjun0609/cs131.git
+   69  git status
+   70  cd
+   71  ls
+   72  cd cs131
+   73  ls
+   74  cd Worksheet1
+   75  ls
+   76  git add.
+   77  git add . 
+   78  git status
+   79  git clone https://github.com/Yasjun0609/cs131.git
+   80  ls
+   81  cd cs131
+   82  ls
+   83  pwd
+   84  cd
+   85  ls
+   86  pwd
+   87  cd cs131
+   88  ls
+   89  cd Worksheet1
+   90  ls
+   91  rmdir cs131
+   92  cd cs131
+   93  pwd
+   94  ls
+   95  cd Worksheet1
+   96  cd
+   97  pwd
+   98  cd cs131/Worksheet1
+   99  ls
+  100  git init
+  101  git status
+  102  git add .
+  103  git status
+  104  ls
+  105  git add cmds.log
+  106  git status
+  107  wget www.github.com
+  108  history >cmds_1.log
