@@ -1,0 +1,7 @@
+Music category Line counts:
+238 lines
+results_Music_category.txt
+
+Music category Word Counts:
+830 words
+results_Music_category.txt
