@@ -1,0 +1,80 @@
+  585  cd cs131
+  586  ls
+  587  cd Work
+  588  ls
+  589  git pull
+  590  mkdir Worksheet3
+  591  ls
+  592  cd Worksheet3
+  593  ls
+  594  touch sample.txt
+  595  ls
+  596  git add .
+  597  git status
+  598  cd
+  599  ls
+  600  cd cs131
+  601  ls
+  602  cd Work
+  603  ls
+  604  git reset
+  605  git add .
+  606  git status
+  607  git commit -m "repository for worksheet3"
+  608  git push
+  609  ls
+  610  cd Worksheet3
+  611  ls
+  612  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  613  ls
+  614  man awk
+  615  grep -i Global*.csv | awek -F',' '$8 == "United States"' | sort -t',' -k16,16nr -o US_high_earning.txt
+  616  grep -i Global*.csv | awk -F',' '$8 == "United States"' | sort -t',' -k16,16nr -o US_high_earning.txt
+  617  grep -i "United States" Global*csv | sort -t',' -k16,16nr -o US_monthly_rank.txt
+  618  ls
+  619  cat US_high_earning.txt
+  620  cat US_monthly_ran
+  621  cat US_monthly_rank
+  622  cat US_monthly_rank.txt
+  623  ls
+  624  rm US_high_earning.txt
+  625  ls
+  626  sed -i '2,$d' US_monthly_rank.txt
+  627  cat US_monthly_rank.txt
+  628  vi US_monthly_rank.txt
+  629  ls
+  630  grep -i "United Kingdom" Global*.csv
+  631  grep -i "United Kingdom" Global*.csv | sort -t',' -k16,16nr >> US_monthly_rank.txt
+  632  grep -i "India" Global*.csv
+  633  grep -i "India" Global*.csv | sort -t',' -k16,16nr >> US_monthly_rank.txt
+  634  ls
+  635  vi US_monthly_rank.txt
+  636  sed -i '6,$d' US_monthly_rank.txt
+  637  vi US_monthly_rank.txt
+  638  grep -i "United Kingdom" Global*.csv | sort -t',' -k16,16nr >> US_monthly_rank.txt
+  639  vi US_monthly_rank.txt
+  640  sed -i '7,$d' US_monthly_rank.txt
+  641  vi US_monthly_rank.txt
+  642  grep -i "India" Global*.csv | sort -t',' -k16,16nr >> US_monthly_rank.txt
+  643  vi US_monthly_rank.txt
+  644  sed -i '12,$d' US_monthly_rank.txt
+  645  vi US_monthly_rank.txt
+  646  grep -i "Sports" Global*.csv | sort -t',' -k3,3nr >> US_monthly_rank.txt
+  647  vi US_monthly_rank.txt
+  648  grep -i "Education" Global*.csv | sort -t',' -k3,3nr >> US_monthly_rank.txt
+  649  vi US_monthly_rank.txt
+  650  ls
+  651  vi US_monthly_rank.txt
+  652  grep -i "Entertainment" Global*.csv | sort -t',' -k3,3nr >> US_monthly_rank.txt
+  653  vi US_monthly_rank.txt
+  654  rm .US_monthly_rank.txt.swp
+  655  vi US_monthly_rank.txt
+  656  grep -i "Entertainment" Global*.csv | sort -t',' -k3,3nr >> US_monthly_rank.txt
+  657  vi US_monthly_rank.txt
+  658  sed -i '26,$d' US_monthly_rank.txt
+  659  vi US_monthly_rank.txt
+  660  git add.
+  661  ls
+  662  mv US_monthly_rank.txt ws3.txt
+  663  ls
+  664  history > cmds.log
