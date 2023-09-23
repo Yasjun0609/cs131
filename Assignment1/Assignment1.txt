@@ -1,0 +1,115 @@
+Script started on 2023-09-22 22:14:15-04:00
+bash-4.4$ ls
+Assignment1.txt  git_1	Worksheet1  Worksheet2	Worksheet3
+
+-------Question 1 ------- mkdir Assignment1
+
+bash-4.4$ mkdir Assigne[Kment1
+bash-4.4$ ls
+Assignment1  Assignment1.txt  git_1  Worksheet1  Worksheet2  Worksheet3
+bash-4.4$ mvlsmkdir Assignment1[C[C[C[C[C[C[C[C[C[Cls[Kexitls -l /etc/os-release[C[C[C[C[C[C[C[C[C[Cman ls[Kcat /etc/os-release[C[C[C[C[C[C[C[C[C[C[12Pfree -mman freels[Kcd myDir3ls[Kcd ..[3Plsmv myFile.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1/myDir3[C[C[C[C[C[C[C[C[C[Cls[Ktouch myFile.txt[C[C[C[C[C[C[C[C[C[Cls[Kmv myFile.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1/myDir3[C[C[C[C[C[C[C[C[C[Cls[Ktouch myFile.txt[C[C[C[C[C[C[C[C[C[C[7Pcd myDir2ls[Kmkdir myDir2 | mkdir myDir3[C[C[C[C[C[C[C[C[C[Cls[Kcd ..touch sample.txt[C[C[C[C[C[C[C[C[C[C[8Pcd myDir[3@ls -l[C[C[C[C[C[C[Kcd ..ls -l[Kcd myDirls[Kchmod u-w myDir[C[C[C[C[C[C[C[C[C[C[6Pman chmodls[Kmkdir myDirid[Kecho $HOMESHELLls[Kcd Assignment1[C[C[C[C[C[C[C[C[C[Cls[Kmv Assignment1.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1[C[C[C[C[C[C[C[C[C[Cpwd[Kmv Assignment1.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1
+bash-4.4$ ls
+Assignment1  git_1  Worksheet1	Worksheet2  Worksheet3
+bash-4.4$ cd Assignment1
+bash-4.4$ ls
+Assignment1.txt
+
+-------Question 2 ------- echo $SHELL
+
+bash-4.4$ echo $SHELL
+/bin/bash
+
+-------Question 3 ------- echo $HOME
+
+bash-4.4$ $echo[K[K[K[K[Kecho $HOME
+/mnt/scratch/FA23_CS131_Ashish/junf23
+
+-------Question 4 ------- id
+
+bash-4.4$ id
+uid=1114(junf23) gid=1114(junf23) groups=1114(junf23),77(S77)
+
+bash-4.4$ ls
+Assignment1.txt
+bash-4.4$ mk mydir[K[K[KDir
+bash: mk: command not found
+
+-------Question 5 ------- mkdir myDir | chmod u-w myDir. I was able to cd into it, I could ls, and ls -l, but i could not write anything.
+
+bash-4.4$ c[Kmkdir myDir
+bash-4.4$ chmod -u[K[Ku-w myDir
+bash-4.4$ ls
+Assignment1.txt  myDir
+bash-4.4$ ls mydri[K[K[KDir
+bash-4.4$ cd myDir
+bash-4.4$ cd ..
+bash-4.4$ ls -l myDir
+total 0
+bash-4.4$ cd myDir
+bash-4.4$ touch sample.tt[Kxt
+touch: cannot touch 'sample.txt': Permission denied
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir
+
+-------Question 6 ------- mkdir myDir2 | mkdir myDir3
+
+bash-4.4$ mkdir myDir2 | mkdir myDir3
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ cd mk[K[KmyDir2
+bash-4.4$ ls
+
+-------Question 7 ------ touch myFile.txt | mv myFile.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1/myDir3
+
+bash-4.4$ touch myFile.txt
+bash-4.4$ touch myFile.txt[C[C[C[C[C[C[C[C[C[Cls[Kcd myDir2ls[Kmkdir myDir2 | mkdir myDir3[C[C[C[C[C[C[C[C[C[Cls[Kcd ..touch sample.txt[C[C[C[C[C[C[C[C[C[C[8Pcd myDir[3@ls -l[C[C[C[C[C[C[6Pcd ..myDirls[C[C[C[C[C[C[Kchmod u-w myDir[C[C[C[C[C[C[C[C[C[C[4Pmkdir[C[C[C[C[C[C[3P myDirls[Kidecho $HOMESHELLls[Kcd Assignment1[C[C[C[C[C[C[C[C[C[Cls[Kmv Assignment1.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1[C[C[C[C[C[C[C[C[C[Cls[Kmkdir Assignment1[C[C[C[C[C[C[C[C[C[Cls[Kmv Assignment1.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1[C[C[C[C[C[C[C[C[C[Cls[Kmkdir Assignment1[C[C[C[C[C[C[C[C[C[Cls[Kexitls -l /etc/os-release[C[C[C[C[C[C[C[C[C[Cman ls[Kcat /etc/os-release[C[C[C[C[C[C[C[C[C[C[12Pfree -mman freels[Kcd myDir3ls[Kcd ..[3Plsmv myFile.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1/myDir3[C[C[C[C[C[C[C[C[C[Cls[Ktouch myFile.txt[C[C[C[C[C[C[C[C[C[Cls[Kmv myFile.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1/myDir3
+bash-4.4$ ls
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ cd myDir3
+bash-4.4$ ls
+myFile.txt
+
+-------Question 8 ------ free -m 
+
+bash-4.4$ free -m
+              total        used        free      shared  buff/cache   available
+Mem:          71367       12124        1508        1264       57735       55816
+Swap:          4119        1056        3063
+
+------Question 9 ------- cat /etc/os-release
+
+bash-4.4$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+
+------ Question 10 ------ ls -l /etc/os-release
+
+
+bash-4.4$ ca[K[Kls -l /etc/os-release
+lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+bash-4.4$ history >[K[K[K[K[K[K[K[K[Kls
+myFile.txt
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3
+bash-4.4$ history > cmdl[Ks.log
+bash-4.4$ ls
+Assignment1.txt  cmds.log  myDir  myDir2  myDir3
