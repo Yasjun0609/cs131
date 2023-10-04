@@ -1,0 +1,5 @@
+Average value of subscribers for United States:
+2.30897e+07
+
+Average value of subscribers for India:
+25596000
