@@ -1,0 +1,138 @@
+           **********************Question1*****************
+ 1001  find /etc -type f > one.txt 2> two.txt
+
+1a) In this command, we are trying to search for all regular files under /etc directory.
+
+ 1002  cat one.txt | cat two.txt
+ 1003  cat one.txt
+
+1b) Inside one.txt, the commands were successful, there exists a list of regular files under /etc directory.
+    Inside two.txt, there are logs of error messages, meaning the command caused error after 'one.txt' because '2' was not a valid entry.
+
+ 1004  echo *********************Question2******************************
+ 1005  ls
+ 1006  cut -d',' f20,21 Global*.csv > channelsCut.txt
+ 1007  cut -d',' -f20,21 Global*.csv > channelsCut.txt
+ 1008  vi channelsCut.txt
+ 1009  sort -t',' -k2,2 -k1,1n channelsCut.txt > channelsSorted.txt
+ 1010  vi channelsSorted.txt
+ 1011  uniq -c channelsSorted.txt | sort-nr > channelsSortedCounted.txt
+ 1012  uniq -c channelsSorted.txt | sort -nr > channelsSortedCounted.txt
+ 1013  vi channelsSortedC*
+ 1014  cat channelsSortedCounted.txt
+
+2) As per the Dataset, Top 3 [Month,Year] with the most number of YouTube channels created were: 
+   1. March,  2006 with 15 channels    (15 2006,Mar)
+   2. July,   2014 with 13 channels    (13 2014,Jul)
+   3. August, 2014 with 12 channels    (12 2014,Aug)
+
+The commans used to find it was this: 
+    1)   cut -d',' -f20,21 Global*.csv > channelsCut.txt
+
+         I used cut -d(delimiter) to pick out fields separated by commas, of 20th and 21th columns
+         which were years and months from Global YouTube Statistics.csv, then redirect the results into channelsCut.txt file.
+
+    2)   sort -t',' -k2,2 -k1,1n channelsCut.txt > channelsSorted.txt
+        Then I used sort -k(delimiter) to sort 2nd column by month (-k2,2) and sort 1st column by number (-k1,1n)
+        then redirected results to 'channelsSorted.txt'
+
+    3)   uniq -c channelsSorted.txt | sort -nr > channelsSortedCounted.txt
+
+        Finally, after sorting, I used uniq -c to count the numbers of unique occurances of each [year,month]
+        then used sort -nr to sort the counts in reverse order so I can record the top 3 occurances easily, redirecting them to 'channelsSortedCounted.txt'
+
+
+ 1015  echo **************************Qustion3*************************
+ 1016  ps -u junf23                < Command for Q3
+
+Output of the command:
+
+   PID TTY          TIME CMD^M
+3853042 ?        00:00:07 systemd^M
+3853045 ?        00:00:00 (sd-pam)^M
+3853053 ?        00:00:00 sshd^M
+3853057 pts/94   00:00:00 bash^M
+4003807 ?        00:00:00 sshd^M
+4003813 pts/69   00:00:00 bash^M
+4011841 pts/94   00:00:00 script^M
+4011843 pts/93   00:00:00 bash^M
+4018345 pts/93   00:00:00 ps^M
+
+
+ 1017  echo **************************Question 4*************************
+ 1018  vi file.txt              
+                    4b) I noticed that it won't let me open file.txt. 
+                        Because there is already opened process for that, I cannot access it 
+                        at the same time. 
+                        The PID was: 4019467
+                        Here is the output,             
+
+       E325: ATTENTION
+Found a swap file by the name ".file.txt.swp"
+          owned by: junf23   dated: Sat Oct 14 02:36:46 2023
+         file name: ~junf23/cs131/Work/Assignment2/file.txt
+          modified: no
+         user name: junf23   host name: sjsu.pic2.isv.ihost.com
+        process ID: 4019467 (still running)
+While opening file "file.txt"
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r file.txt"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".file.txt.swp"
+    to avoid this message.
+
+Swap file ".file.txt.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort:
+
+
+                      4c,d) It allows me to open file.txt now. 
+                            Because the first terminal exited the file,
+                            and thus the process was open for access from 2nd terminal.
+                            here is the output of successful opening from 2nd terminal:
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+"file.txt" [New File]                                         0,0-1         All 
+
+ 1019  echo *************************Question 5 ***********************
+ 1020  ps aux | grep "systemd"     < Command for Q5
+
+                    The init process is the very first process when the linux boots.
+                    It is started by kernel, it is responsible for initializing the system,,
+                    and other processes.
+                    The PID for init or systemd was: 1   
+                    It is 1 because it is the first process.
+
+root           1  0.3  0.0 178624 18368 ?        Ss   Oct05  45:18 /usr/lib/systemd/systemd --switched-root --system --deserialize 17^M
+
+
+
+
+ 1021  echo ****************************Question6***************************
+ 
+ 6) 'ps aux' is a command used to identify all processes running on the current system by a list. It includes the PID,how much memory it is using, which user initiated at what time and date.
+In case of using it on IBM VM like this, it shows all users (my classmates included)
+ 1022  history > cmds.log
