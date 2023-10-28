@@ -1,0 +1,180 @@
+Script started on 2023-10-28 00:00:58-04:00
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   ws5.txt
+bash-4.4$ vi script_[K.txt[K[K[Ksh
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;23r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[23;1H"script.sh" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [1;1H[?25h[?25l[m[23;1H[1m-- INSERT --[m[23;13H[K[1;1H[?25h[?25l#[?25h[?25l![?25h[?25l/[?25h[?25lb[?25h[?25li[?25h[?25ln[?25h[?25l/[?25h[?25ls[?25h[?25lh[?25h[?25l[1;9H[K[1;9H[?25h[?25l[1;8H[K[1;8H[?25h[?25lb[?25h[?25la[?25h[?25lh[?25h[?25l [?25h[?25l[?25h[?25l[1;10H[K[1;10H[?25h[?25ls[?25h[?25lh[?25h[?25l[2;1H[K[2;1H[?25h[?25l[3;1H[K[3;1H[?25h[?25l#[?25h[?25l [?25h[?25lS[?25h[?25le[?25h[?25lt[?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25l[?25h[?25l[3;8H[K[3;8H[?25h[?25l[3;7H[K[3;7H[?25h[?25l[3;6H[K[3;6H[?25h[?25l [?25h[?25lt[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25ld[?25h[?25le[?25h[?25lm[?25h[?25l[3;13H[K[3;13H[?25h[?25ll[?25h[?25li[?25h[?25lm[?25h[?25li[?25h[?25lt[?25h[?25le[?25h[?25lr[?25h[?25l [?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25ln[?25h[?25le[?25h[?25lw[?25h[?25ll[?25h[?25li[?25h[?25ln[?25h[?25le[?25h[?25l[4;1H[K[4;1H[?25h[?25lI[?25h[?25lF[?25h[?25lS[?25h[?25l=[?25h[?25l$[?25h[?25l'[?25h[?25l\[?25h[?25ln[?25h[?25l'[?25h[?25l[5;1H[K[5;1H[?25h[?25l[6;1H[K[6;1H[?25h[?25l#[?25h[?25l [?25h[?25lI[?25h[?25ln[?25h[?25lp[?25h[?25lu[?25h[?25lt[?25h[?25l [?25h[?25lf[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l [?25h[?25lc[?25h[?25lo[?25h[?25ln[?25h[?25lt[?25h[?25la[?25h[?25li[?25h[?25ln[?25h[?25li[?25h[?25ln[?25h[?25lg[?25h[?25l [?25h[?25lY[?25h[?25lo[?25h[?25lu[?25h[?25lT[?25h[?25lu[?25h[?25lb[?25h[?25le[?25h[?25l [?25h[?25ld[?25h[?25la[?25h[?25lt[?25h[?25la[?25h[?25l[7;1H[K[7;1H[?25h[?25lf[?25h[?25lo[?25h[?25lr[?25h[?25l [?25h[?25ll[?25h[?25li[?25h[?25ln[?25h[?25le[?25h[?25l [?25h[?25li[?25h[?25ln[?25h[?25l [?25h[?25l$[?25h[?25l[7;13H[K[7;13H[?25h[?25l[?25h[?25l[7;11H[K[7;11H[?25h[?25l[7;10H[K[7;10H[?25h[?25l[?25h[?25l[7;8H[K[7;8H[?25h[?25l[7;7H[K[7;7H[?25h[?25l[7;6H[K[7;6H[?25h[?25l[7;5H[K[7;5H[?25h[?25l[?25h[?25l[7;3H[K[7;3H[?25h[?25l[7;2H[K[7;2H[?25h[?25l[7;1H[K[7;1H[?25h[?25l[94m~                                                                               [6;37H[?25h[?25l[m[6;36H[K[6;36H[?25h[?25l[6;35H[K[6;35H[?25h[?25l[6;34H[K[6;34H[?25h[?25l[6;33H[K[6;33H[?25h[?25l[?25h[?25l[6;31H[K[6;31H[?25h[?25l[6;30H[K[6;30H[?25h[?25l[6;29H[K[6;29H[?25h[?25l[6;28H[K[6;28H[?25h[?25l[6;27H[K[6;27H[?25h[?25l[6;26H[K[6;26H[?25h[?25l[6;25H[K[6;25H[?25h[?25l[?25h[?25l[6;23H[K[6;23H[?25h[?25l[6;22H[K[6;22H[?25h[?25l[6;21H[K[6;21H[?25h[?25l[6;20H[K[6;20H[?25h[?25l[6;19H[K[6;19H[?25h[?25l[6;18H[K[6;18H[?25h[?25l[6;17H[K[6;17H[?25h[?25l[6;16H[K[6;16H[?25h[?25l[6;15H[K[6;15H[?25h[?25l[6;14H[K[6;14H[?25h[?25l[?25h[?25l[6;12H[K[6;12H[?25h[?25l[6;11H[K[6;11H[?25h[?25l[6;10H[K[6;10H[?25h[?25l[6;9H[K[6;9H[?25h[?25l[?25h[?25l[6;7H[K[6;7H[?25h[?25l[6;6H[K[6;6H[?25h[?25l[6;5H[K[6;5H[?25h[?25l[6;4H[K[6;4H[?25h[?25l[6;3H[K[6;3H[?25h[?25l[?25h[?25l[6;1H[K[6;1H[?25h[?25l[94m~                                                                               [5;1H[?25h[?25l~                                                                               [4;10H[?25h[?25l[m[4;9H[K[4;9H[?25h[?25l[4;8H[K[4;8H[?25h[?25l[4;7H[K[4;7H[?25h[?25l[4;6H[K[4;6H[?25h[?25l[4;5H[K[4;5H[?25h[?25l[4;4H[K[4;4H[?25h[?25l[4;3H[K[4;3H[?25h[?25l[4;2H[K[4;2H[?25h[?25l[4;1H[K[4;1H[?25h[?25l[94m~                                                                               [3;31H[?25h[?25l[m[3;30H[K[3;30H[?25h[?25l[3;29H[K[3;29H[?25h[?25l[3;28H[K[3;28H[?25h[?25l[3;27H[K[3;27H[?25h[?25l[3;26H[K[3;26H[?25h[?25l[3;25H[K[3;25H[?25h[?25l[3;24H[K[3;24H[?25h[?25l[?25h[?25l[3;22H[K[3;22H[?25h[?25l[3;21H[K[3;21H[?25h[?25l[?25h[?25l[3;19H[K[3;19H[?25h[?25l[3;18H[K[3;18H[?25h[?25l[3;17H[K[3;17H[?25h[?25l[3;16H[K[3;16H[?25h[?25l[3;15H[K[3;15H[?25h[?25l[3;14H[K[3;14H[?25h[?25l[3;13H[K[3;13H[?25h[?25l[3;12H[K[3;12H[?25h[?25l[3;11H[K[3;11H[?25h[?25l[?25h[?25l[3;9H[K[3;9H[?25h[?25l[3;8H[K[3;8H[?25h[?25l[3;7H[K[3;7H[?25h[?25l[?25h[?25l[3;5H[K[3;5H[?25h[?25l[3;4H[K[3;4H[?25h[?25l[3;3H[K[3;3H[?25h[?25l[?25h[?25l[3;1H[K[3;1H[?25h[?25l[94m~                                                                               [2;1H[?25h[?25l~                                                                               [1;12H[?25h[?25l[m[1;11H[K[1;11H[?25h[?25l[1;10H[K[1;10H[?25h[?25l[1;9H[K[1;9H[?25h[?25l[1;8H[K[1;8H[?25h[?25l[1;7H[K[1;7H[?25h[?25l[1;6H[K[1;6H[?25h[?25l[1;5H[K[1;5H[?25h[?25l[1;4H[K[1;4H[?25h[?25l[1;3H[K[1;3H[?25h[?25l[1;2H[K[1;2H[?25h[?25l[1;1H[K[1;1H[?25h[?25l#!/bin/bash[2;1H[K[3;1H# Set the delimiter to newline[3;31H[K[4;1HIFS[4;4H[K[4;4H[?25h[?25l=$'\n'[5;1H[K[6;1H# Input file containing YouTube data[6;37H[K[7;1Hinput_file="[7;13H[K[7;13H[?25h[?25lyoutube_data.txt"[8;1H[K[9;1H# Loop through lines in the input file[9;39H[K[10;1Hf[10;2H[K[10;2H[?25h[?25lor line in $(cat "$input_file"); do
+  # Set the delimiter to[11;25H[K[11;25H[?25h[?25l comma
+  IFS=','[12;10H[K[13;1H  [13;3H[K[14;1H  # Split the line into fields and store [14;42H[K[14;42H[?25h[?25lthem in an array
+  fields=($line)[15;17H[K[16;1H  [16;3H[K[17;1H  # Check if the 8th colu[17;26H[K[17;26H[?25h[?25lmn contains "United States"
+  if [[ "${fields[7]}" == *United [18;35H[K[18;35H[?25h[?25lStates* ]]; then
+    # Check the 5th column for different cate[19;46H[K[19;46H[?25h[?25lgories
+    if [ "${fields[4]}" == "Entertainment" ]; then[20;51H[K[21;1H     [21;6H[K[21;6H[?25h[?25l # Append the line to Entertainment.txt
+      echo "$line" >> "[22;24H[K[22;24H[?25h[?25lEntertainment.txt"   [?25h[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Music" ]; then[23;11H[1m(paste) --[22;26H[?25h[?25l[1;22r[m[1;1H[2M[1;23r[21;7H# Append the line to Music.txt[22;7Hecho "$line" >> "Music.txt"[22;9H[?25h[?25l[1;22r[1;1H[2M[1;23r[21;5Helif [ "${fields[4]}" == "Gaming" ]; then[22;7H# Append the line to Gaming.txt[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Gaming.txt"[22;17H[?25h[?25l[1;22r[1;1H[2M[1;23r[21;5Helif [ "${fields[4}" == "Comedy" ]; then[22;7H# Append the line to Comedy.txt[22;7H[?25h[?25l[1;22r[1;1H[5M[1;23r[18;7Hecho "$line" >> "Comedy.txt"
+    fi
+  fi
+done[23;11H[1m--a[m[23;13H[K[22;1H[?25h[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H    elif [ "${fields[4[?25l]}" == "Comedy" ]; then[16;24H[?25h[15;24H[14;24H[13;24H[12;24H[11;24H[10;24H[9;24H[8;24H[7;24H[6;24H[?25l[1;22r[1;1H[L[1;23r[6;24H[?25h[?25l[1;22r[1;1H[L[1;23r[1;3HIFS=','[6;24H[?25h[?25l[1;22r[1;1H[L[1;23r[1;3H# Set the delimiter to comma[6;3H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1Hfor line in $(cat "$input_file"); do[6;17H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1H# Loop through lines in the input file[6;24H[?25h[?25l[1;22r[1;1H[L[1;23r[6;3H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1Hinput_file="youtube_data.txt"[6;10H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1H# Input file containing YouTube data[6;24H[?25h[?25l[1;22r[1;1H[L[1;23r[6;24H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1HIFS=$'\n'[6;24H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1H# Set the delimiter to newline[6;1H[?25h[?25l[1;22r[1;1H[L[1;23r[6;24H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1H#!/bin/bash[6;24H[?25h[7;24H
+[9;24H[10;24H[11;24H[12;10H
+  [14;24H[15;17H
+  [17;24H[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Music" ]; then[17;24H[?25h[[?25l "${fields[7]}" == *United States* ]]; then[17;50H[K[17;7H[?25h "${fields[7]}" == *United States* ][?25l; then[17;49H[K[17;42H[?25h*[?25l ]; then[17;48H[K[17;40H[?25h[?25l" ]; then[17;41H[?25h*[?25lUnited States" ]; then[17;48H[K[17;26H[?25h[?25l"United States" ]; then[17;27H[?25h[16;27H[15;3H[14;17H[13;27H[12;3H[11;10H[10;27H[9;27H[8;27H[7;1H[6;27Hxt[?25l"[6;29H[K[6;28H[?25h[?25l"[6;28H[K[6;27H[?25h[?25l"[6;27H[K[6;26H[?25h[?25l"[6;26H[K[6;25H[?25h[?25l"[6;25H[K[6;24H[?25h[?25l"[6;24H[K[6;23H[?25h[?25l"[6;23H[K[6;22H[?25h[?25l"[6;22H[K[6;21H[?25h[?25l"[6;21H[K[6;20H[?25h[?25l"[6;20H[K[6;19H[?25h[?25l"[6;19H[K[6;18H[?25h[?25l"[6;18H[K[6;17H[?25h[?25l"[6;17H[K[6;16H[?25h[?25l"[6;16H[K[6;15H[?25h[?25l"[6;15H[K[6;14H[?25h[?25l"[6;14H[K[6;13H[?25h[?25lG"[?25h[?25ll"[?25h[?25lo"[?25h[?25lb"[?25h[?25la"[?25h[?25ll"[?25h[?25l "[?25h[?25lY"[?25h[?25lo"[?25h[?25lu"[?25h[?25lT"[?25h[?25lu"[?25h[?25lb"[?25h[?25le"[?25h[?25l "[?25h[?25lS"[?25h[?25lt"[?25h[?25la"[?25h[?25lt"[?25h[?25li"[?25h[?25ls"[?25h[?25lt"[?25h[?25li"[?25h[?25lc"[?25h[?25ls"[?25h[?25l."[?25h[?25lc"[?25h[?25ls"[?25h[?25lv"[?25h[?25l[1;22r[1;1H[L[1;23r[1;1H#!/bin/bash[6;37H[?25h[5;1H[6;37H[7;42H
+[9;39H[10;37H[11;31H[12;10H
+  [14;42H[15;17H
+  [17;42H[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Music" ]; then[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7H# Append the line to Music.txt[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Music.txt"[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Gaming" ]; then[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7H# Append the line to Gaming.txt[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Gaming.txt"[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Comedy" ]; then[17;37H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7H# Append the line to Comedy.txt[17;34H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Comedy.txt"[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;5Hfi[17;38H[?25h[?25l[1;22r[22;1H
+[1;23r[22;3Hfi[17;35H[?25h[?25l[1;22r[22;1H
+[1;23r[22;1Hdone[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[17;38H[?25h[18;35H[19;7H
+  fi
+done[20;5H[19;7H[18;35H[17;38H[16;42H[15;35H[14;38H[13;42H[12;34H[11;37H[10;42H[9;42H[8;42H[7;42H[6;42H[?25l[1;22r[1;1H[L[1;23r[6;42H[?25h[?25l[1;22r[1;1H[L[1;23r[1;3HIFS=','[6;42H[?25h[?25l[1;22r[1;1H[L[1;23r[1;3H# Set the delimiter to comma[6;3H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1Hfor line in $(cat "$input_file"); do[6;17H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1H# Loop through lines in the input file[6;42H[?25h[?25l[1;22r[1;1H[L[1;23r[6;3H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1Hinput_file="Global YouTube Statistics.csv"[6;10H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1H# Input file containing YouTube data[6;31H[?25h[?25l[1;22r[1;1H[L[1;23r[6;37H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1HIFS=$'\n'[6;39H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1H# Set the delimiter to newline[6;1H[?25h[?25l[1;22r[1;1H[L[1;23r[6;42H[?25h[?25l[1;22r[1;1H[L[1;23r[1;1H#!/bin/bash[6;37H[?25h[5;1H[4;10H[3;31H[2;1H[1;12H
+[3;31H[4;10H
+[6;37H[7;42H
+[9;39H[10;37H[11;31H[12;10H
+  [14;42H[15;17H
+  [17;42H[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Music" ]; then[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7H# Append the line to Music.txt[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Music.txt"[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Gaming" ]; then[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7H# Append the line to Gaming.txt[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Gaming.txt"[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Comedy" ]; then[17;37H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7H# Append the line to Comedy.txt[17;34H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Comedy.txt"[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[22;5Hfi[17;38H[?25h[?25l[1;22r[22;1H
+[1;23r[22;3Hfi[17;35H[?25h[?25l[1;22r[22;1H
+[1;23r[22;1Hdone[17;42H[?25h[?25l[1;22r[22;1H
+[1;23r[17;38H[?25h[18;35H[19;7H
+  fi
+done
+[23;1H[K[22;1H[?25l[?25h[?25l
+:[?2004h[?25hwq[?25l[?2004l"script.sh" [New] 35L, 998C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ touch Unitedstates/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir United States
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   script.sh   States   United   ws5.txt
+bash-4.4$ rm [Kdir Sa[Ktates
+bash-4.4$ rmdir States
+rmdir: failed to remove 'States': No such file or directory
+bash-4.4$ rm dir United[C[1P
+bash-4.4$ ;[Kls
+'Global YouTube Statistics.csv'   script.sh   ws5.txt
+bash-4.4$ mkdir United_States
+bash-4.4$ cd United_States
+bash-4.4$ ls
+bash-4.4$ touch Ene[Ktertainment.txt
+bash-4.4$ touch Music.txt
+bash-4.4$ touch Gaming.txt
+bash-4.4$ touch Comedy.txt
+bash-4.4$ vi script.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;23r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[23;1H"script.txt" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [1;1H[?25h[?25l[m[23;1H[K[23;1H:[?2004h[?25hwq[?25l[?2004l"script.txt" [New] 0L, 0C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ ls
+Comedy.txt  Entertainment.txt  Gaming.txt  Music.txt  script.txt
+bash-4.4$ rm script.txt
+bash-4.4$ cd ..
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   script.sh   United_States   ws5.txt
+bash-4.4$ vi script.sh
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;23r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[23;1H"script.sh" 35L, 998C[1;1H#!/bin/bash
+
+# Set the delimiter to newline
+IFS=$'\n'
+
+# Input file containing YouTube data
+input_file="Global YouTube Statistics.csv"
+
+# Loop through lines in the input file
+for line in $(cat "$input_file"); do
+  # Set the delimiter to comma
+  IFS=','
+
+  # Split the line into fields and store them in an array
+  fields=($line)
+
+  # Check if the 8th column contains "United States"
+  if [ "${fields[7]}" == "United States" ]; then
+    # Check the 5th column for different categories
+    if [ "${fields[4]}" == "Entertainment" ]; then[21;7H# Append the line to Entertainment.txt[22;7Hecho "$line" >> "Entertainment.txt"[1;1H[?25h
+
+
+
+
+
+
+[?25l[23;1H[1m-- INSERT --[m[23;13H[K[8;1H[?25h
+
+
+
+
+
+
+
+
+[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Music" ]; then[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7H# Append the line to Music.txt[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Music.txt"[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Gaming" ]; then[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7H# Append the line to Gaming.txt[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Gaming.txt"[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;5Helif [ "${fields[4]}" == "Comedy" ]; then[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7H# Append the line to Comedy.txt[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;7Hecho "$line" >> "Comedy.txt"[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;5Hfi[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;3Hfi[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[22;1Hdone[17;1H[?25h[?25l[1;22r[22;1H
+[1;23r[17;1H[?25h
+
+
+
+
+[21;1H[20;1H[19;1H[18;1H[17;1H[16;1H[15;1H[14;1H[13;1H[12;1H[11;1H[10;1H[9;1H[8;1H[7;1H[6;1H[?25l[1;22r[1;1H[L[1;23r[6;1H[?25h[?25l[1;22r[1;1H[L[1;23r[1;3HIFS=','[6;1H[?25h[?25l[1;22r[1;1H[L[1;23r[1;3H# Set the delimiter to comma[6;1H[?25h 
+ 
+ 
+ 
+ 
+ [10;2H   if [ "${fields[4]}" =[11;26H[12;26H[?25lUEntertainment.txt"[12;25H[?25h[?25lnEntertainment.txt"[12;26H[?25h[?25liEntertainment.txt"[12;27H[?25h[?25ltEntertainment.txt"[12;28H[?25h[?25leEntertainment.txt"[12;29H[?25h[?25ldEntertainment.txt"[12;30H[?25h[?25l_Entertainment.txt"[12;31H[?25h[?25lSEntertainment.txt"[12;32H[?25h[?25ltEntertainment.txt"[12;33H[?25h[?25laEntertainment.txt"[12;34H[?25h[?25ltEntertainment.txt"[12;35H[?25h[?25leEntertainment.txt"[12;36H[?25h[?25lsEntertainment.txt"[12;37H[?25h[?25l/Entertainment.txt"[12;38H[?25h[13;38H[14;37H[15;34H[?25lUMusic.txt"[15;25H[?25h[?25lnMusic.txt"[15;26H[?25h[?25liMusic.txt"[15;27H[?25h[?25ltMusic.txt"[15;28H[?25h[?25leMusic.txt"[15;29H[?25h[?25ldMusic.txt"[15;30H[?25h[?25l_Music.txt"[15;31H[?25h[?25lSMusic.txt"[15;32H[?25h[?25ltMusic.txt"[15;33H[?25h[?25laMusic.txt"[15;34H[?25h[?25ltMusic.txt"[15;35H[?25h[?25leMusic.txt"[15;36H[?25h[?25lsMusic.txt"[15;37H[?25h[?25l/Music.txt"[15;38H[?25h[16;38H[17;38H[?25l[1;22r[22;1H
+[1;23r[22;3Hfi[17;34H[?25h[?25lUGaming.txt"[17;25H[?25h[?25lnGaming.txt"[17;26H[?25h[?25liGaming.txt"[17;27H[?25h[?25ltGaming.txt"[17;28H[?25h[?25leGaming.txt"[17;29H[?25h[?25ldGaming.txt"[17;30H[?25h[?25l_Gaming.txt"[17;31H[?25h[?25lSGaming.txt"[17;32H[?25h[?25ltGaming.txt"[17;33H[?25h[?25laGaming.txt"[17;34H[?25h[?25ltGaming.txt"[17;35H[?25h[?25leGaming.txt"[17;36H[?25h[?25lsGaming.txt"[17;37H[?25h[?25l/Gaming.txt"[17;38H[?25h[?25l[1;22r[22;1H
+[1;23r[22;1Hdone[17;38H[?25h[?25l[1;22r[22;1H
+[1;23r[17;38H[?25h[18;35H[?25lUComedy.txt"[18;25H[?25h[?25lnComedy.txt"[18;26H[?25h[?25liComedy.txt"[18;27H[?25h[?25ltComedy.txt"[18;28H[?25h[?25leComedy.txt"[18;29H[?25h[?25ldComedy.txt"[18;30H[?25h[?25l_Comedy.txt"[18;31H[?25h[?25lSComedy.txt"[18;32H[?25h[?25ltComedy.txt"[18;33H[?25h[?25laComedy.txt"[18;34H[?25h[?25ltComedy.txt"[18;35H[?25h[?25leComedy.txt"[18;36H[?25h[?25lsComedy.txt"[18;37H[?25h[?25l/Comedy.txt"[18;38H[?25h[23;1H[K[18;37H[?25l[?25h[?25l[23;1H:[?2004h[?25hwq[?25l[?2004l"script.sh" 35L, 1054C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ bash script.sh
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   script.sh   United_States   ws5.txt
+bash-4.4$ cd United S[K[K-[K_s[KStates
+bash-4.4$ ls
+Comedy.txt  Entertainment.txt  Gaming.txt  Music.txt
+
+******************************************** Task Answers Number of Entries *****************************************************
+There are:
+
+73 Entries inside  Music.txt
+
+68 Entries inside  Entertainment.txt
+
+26 Entries inside  Gaming.txt
+
+22 Entries inside  Comedy.txt
+
+**********************************************************************************************************************************
+bash-4.4$ ls
+Comedy.txt  Entertainment.txt  Gaming.txt  Music.txt
+bash-4.4$ history >[K[K[K[K[K[K[K[K[Kcd ..
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   script.sh   United_States   ws5.txt
+bash-4.4$ history > cmdls[K[Ks.log
+bash-4.4$ ls
+ cmds.log			  script.sh	  ws5.txt
+'Global YouTube Statistics.csv'   United_States
+bash-4.4$ exit
+exit
+
+Script done on 2023-10-28 00:10:18-04:00

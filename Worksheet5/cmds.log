@@ -1,0 +1,23 @@
+965 ls
+966 cd Worksheet5
+967 ls
+968 mkdir United_States
+969 cd United_States
+970 touch Entertainment.txt
+971 touch Music.txt
+972 touch Gaming.txt
+973 touch Comedy.txt
+974 cd ..
+975 ls
+976 vi script.sh
+977 ls
+978 bash script.sh
+979 cd United_States
+980 ls
+981 wc -l Music.txt
+982 wc -l Entertainment.txt
+983 wc -l Gaming.txt
+984 wc -l Comedy.txt
+985 history > cmds.log
+986 exit
+
