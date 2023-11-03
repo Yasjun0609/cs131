@@ -1,0 +1,1000 @@
+   27  git pull origin master
+   28  cd cs131/Worksheet1
+   29  ls
+   30  cd
+   31  ls
+   32  cd cs131
+   33  ls
+   34  cd Worksheet1
+   35  ls
+   36  rm cmds_1.log
+   37  rm cmds.log
+   38  rm index.html
+   39  em index.html.1
+   40  rm index.html.1
+   41  rm jun.txt
+   42  ls
+   43  cd cs131
+   44  ls
+   45  cd
+   46  ls
+   47  cd cs131
+   48  ls
+   49  cd Worksheet1
+   50  ls
+   51  rm -r cs131
+   52  ls
+   53  mv sample1 githubDir1
+   54  ls
+   55  cd gihubDir1
+   56  mv githubDir1 git_1
+   57  ls
+   58  cd git_1
+   59  ls
+   60  cd cs131
+   61  ls
+   62  git pull origin master
+   63  cd
+   64  ls
+   65  cd cs131
+   66  ls
+   67  cd Worksheet1
+   68  ls
+   69  pwd
+   70  ls
+   71  cd git_1
+   72  ls
+   73  cd cs131
+   74  ls
+   75  mv cmds_1.log cmds.log index.html jun.txt /mnt/scratch/FA23 CS131 Ashish/junf23/cs131/Worksheet1
+   76  mv cmds_1.log cmds.log index.html jun.txt junf23/cs131/Worksheet1
+   77  mv cmds_1.log cmds.log index.html jun.txt mnt/scratch/FA23 CS131 Ashish/junf23/cs131/Worksheet1
+   78  mv cmds_1.log cmds.log index.html jun.txt cs131/Worksheet1
+   79  pwd
+   80  mv cmds_1.log cmds.log index.html jun.txt /mnt/scratch/FA23 CS131 Ashish/junf23/cs131/Worksheet1
+   81  mv cmds_1.log cmds.log index.html jun.txt /mnt/scratch/FA23 CS131_Ashish/junf23/cs131/Worksheet1
+   82  mv cmds_1.log cmds.log index.html jun.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Worksheet1
+   83  ls
+   84  cd
+   85  ls
+   86  cd cs131
+   87  ls
+   88  cd Worksheet1
+   89  ls
+   90  rm -r git_1
+   91  git add .
+   92  git status
+   93  ls
+   94  cd
+   95  git add .
+   96  ls
+   97  cd cs131
+   98  git add .
+   99  git status
+  100  git push
+  101  ls
+  102  cd Worksheet1
+  103  ls
+  104  git pull origin master
+  105  mv cmds_1.log cmds.log index.html jun.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131
+  106  ls
+  107  cd
+  108  ls
+  109  cd cs131
+  110  ls
+  111  git pull origin master
+  112  mv cmds_1.log cmds.log index.html jun.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Worksheet1
+  113  ls
+  114  cd Worksheet1
+  115  ls
+  116  git pull origin master
+  117  cd
+  118  ls
+  119  cd cs131
+  120  ls
+  121  mv Worksheet1 Assignments
+  122  ls
+  123  cd Assignments
+  124  ls
+  125  git pull origin master
+  126  mkdir Worksheet2
+  127  ls
+  128  git add .
+  129  git status
+  130  git add -A
+  131  git status
+  132  ls
+  133  cd git_1
+  134  ls
+  135  cd cs131
+  136  ls
+  137  cd
+  138  ls
+  139  cd cs131
+  140  ls
+  141  mv Assignments Work
+  142  ls
+  143  cd Work
+  144  ls
+  145  git add .
+  146  git status
+  147  cd Worksheet2
+  148  ls
+  149  touch Text_1.txt
+  150  ls
+  151  cd
+  152  ls
+  153  cd cs131
+  154  cd Work
+  155  ls
+  156  git add -A
+  157  git status
+  158  git commit -m "directory changes_1"
+  159  git push
+  160  ls
+  161  mkdir Worksheet1
+  162  cd Worksheet1
+  163  ls
+  164  pwd
+  165  cd ..
+  166  ls
+  167  mv cmds_1.log cmds.log index.html jun.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Worksheet1
+  168  ls
+  169  git add -A
+  170  git status
+  171  git commit -m "Directory changes_2"
+  172  git push
+  173  ls
+  174  cd Worksheet2
+  175  ls
+  176  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20Youtube%20Statistics.csv
+  177  ls
+  178  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  179  ls
+  180  man cat
+  181  cat Global*.csv
+  182  ls
+  183  grep "United States" Global_YouTube_Statistics.csv
+  184  ls
+  185  grep -i "Unites States" Global YouTube Statistics.csv
+  186  grep -i "Unites States" Global%20YouTube%20Statistics.csv
+  187  grep -i "Unites States" Global YouTube Statistics.csv
+  188  ls
+  189  grep -i "United States" Global*.csv
+  190  grep -i "United States" Global*.csv > results_United_States.txt
+  191  ls
+  192  grep -i "Music" Global*.csv > results_Music_category.txt
+  193  ls
+  194  wc -l results_Mu*.txt 
+  195  wc -w results_Mu*.txt
+  196  wc -l results_Mu*.txt > counts.txt
+  197  wc -w results_Mu*.txt > counts.txt
+  198  ls
+  199  cat counts.txt
+  200  wc -l results_Mu*.txt >> counts.txt
+  201  ls
+  202  cat counts.txt
+  203  vi counts.txt
+  204  ls
+  205  cat counts.txt
+  206  history > cmds.log
+  207  ls
+  208  git add -A
+  209  git status
+  210  git commit -m "Worksheet2 Submission"
+  211  git push
+  212  ls
+  213  echo 'pwd'
+  214  echo "pwd"
+  215  ls
+  216  cd
+  217  ls
+  218  cd cs131
+  219  ls
+  220  cd Work
+  221  ls
+  222  cd
+  223  ls
+  224  cd cs131
+  225  ls
+  226  mkdir lecture
+  227  ls
+  228  cd lecture
+  229  ls
+  230  cd
+  231  pwd
+  232  ls
+  233  git pull
+  234  cd cs131
+  235  ls
+  236  cd Work
+  237  ls
+  238  git pull
+  239  mkdir Worksheet3
+  240  ls
+  241  cd Worksheet3
+  242  ls
+  243  touch sample.txt
+  244  ls
+  245  git add .
+  246  git status
+  247  cd
+  248  ls
+  249  cd cs131
+  250  ls
+  251  cd Work
+  252  ls
+  253  git reset
+  254  git add .
+  255  git status
+  256  git commit -m "repository for worksheet3"
+  257  git push
+  258  ls
+  259  cd Worksheet3
+  260  ls
+  261  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  262  ls
+  263  man awk
+  264  grep -i Global*.csv | awek -F',' '$8 == "United States"' | sort -t',' -k16,16nr -o US_high_earning.txt
+  265  grep -i Global*.csv | awk -F',' '$8 == "United States"' | sort -t',' -k16,16nr -o US_high_earning.txt
+  266  grep -i "United States" Global*csv | sort -t',' -k16,16nr -o US_monthly_rank.txt
+  267  ls
+  268  cat US_high_earning.txt
+  269  cat US_monthly_ran
+  270  cat US_monthly_rank
+  271  cat US_monthly_rank.txt
+  272  ls
+  273  rm US_high_earning.txt
+  274  ls
+  275  sed -i '2,$d' US_monthly_rank.txt
+  276  cat US_monthly_rank.txt
+  277  vi US_monthly_rank.txt
+  278  ls
+  279  grep -i "United Kingdom" Global*.csv
+  280  grep -i "United Kingdom" Global*.csv | sort -t',' -k16,16nr >> US_monthly_rank.txt
+  281  grep -i "India" Global*.csv
+  282  grep -i "India" Global*.csv | sort -t',' -k16,16nr >> US_monthly_rank.txt
+  283  ls
+  284  vi US_monthly_rank.txt
+  285  sed -i '6,$d' US_monthly_rank.txt
+  286  vi US_monthly_rank.txt
+  287  grep -i "United Kingdom" Global*.csv | sort -t',' -k16,16nr >> US_monthly_rank.txt
+  288  vi US_monthly_rank.txt
+  289  sed -i '7,$d' US_monthly_rank.txt
+  290  vi US_monthly_rank.txt
+  291  grep -i "India" Global*.csv | sort -t',' -k16,16nr >> US_monthly_rank.txt
+  292  vi US_monthly_rank.txt
+  293  sed -i '12,$d' US_monthly_rank.txt
+  294  vi US_monthly_rank.txt
+  295  grep -i "Sports" Global*.csv | sort -t',' -k3,3nr >> US_monthly_rank.txt
+  296  vi US_monthly_rank.txt
+  297  grep -i "Education" Global*.csv | sort -t',' -k3,3nr >> US_monthly_rank.txt
+  298  vi US_monthly_rank.txt
+  299  ls
+  300  vi US_monthly_rank.txt
+  301  grep -i "Entertainment" Global*.csv | sort -t',' -k3,3nr >> US_monthly_rank.txt
+  302  vi US_monthly_rank.txt
+  303  rm .US_monthly_rank.txt.swp
+  304  vi US_monthly_rank.txt
+  305  grep -i "Entertainment" Global*.csv | sort -t',' -k3,3nr >> US_monthly_rank.txt
+  306  vi US_monthly_rank.txt
+  307  sed -i '26,$d' US_monthly_rank.txt
+  308  vi US_monthly_rank.txt
+  309  git add.
+  310  ls
+  311  mv US_monthly_rank.txt ws3.txt
+  312  ls
+  313  history > cmds.log
+  314  ls
+  315  vi cmds.log
+  316  git add .
+  317  git status
+  318  git commit -m "Worksheet3 Submission"
+  319  git push
+  320  ls
+  321  cd
+  322  ls
+  323  exit
+  324  pwd
+  325  l
+  326  ls
+  327  cd cs131/Worksheet3
+  328  cd 131
+  329  ls
+  330  cd cs131
+  331  ls
+  332  cd Work
+  333  cd Worksheet3
+  334  ls
+  335  cat ws3.txt
+  336  script
+  337  ls
+  338  cat typescript
+  339  rm typescript
+  340  ls
+  341  cd
+  342  cd cs131
+  343  ls
+  344  cd Work
+  345  ls
+  346  cat cmds.log
+  347  ls
+  348  cd Worksheet3
+  349  ls
+  350  cat cmds.log
+  351  ls
+  352  cd cs131
+  353  ls
+  354  cd lecture
+  355  ls
+  356  man cron
+  357  ls -ltr
+  358  ls
+  359  mkdir newdir
+  360  cd newDir
+  361  rmdir newdir
+  362  ls
+  363  ls
+  364  cd cs131
+  365  ls
+  366  cd lecture
+  367  ls
+  368  touch a
+  369  ls
+  370  cat a
+  371  ls
+  372  vi a
+  373  ls
+  374  rm a
+  375  ls
+  376  cd ..
+  377  cd .
+  378  ls -i
+  379  ls -lart
+  380  ls
+  381  cd lecture
+  382  touch a.txt
+  383  stat a
+  384  stat a.txt
+  385  -lart
+  386  ls -lart
+  387  man mv
+  388  mv a.txt b.txt
+  389  ls
+  390  stat b.txt
+  391  strace mkdir mydir
+  392  ls
+  393  rmdir mydir
+  394  ls -a
+  395  ls
+  396  cp b.txt c.txt
+  397  ls
+  398  rsync b.txt d.txt
+  399  ls
+  400  stat c.txt
+  401  stat b.txt
+  402  stat d.txt
+  403  man rsync
+  404  ls
+  405  cat > /dev/tty
+  406  ls
+  407  cat /etc/shadow
+  408  sudo cat /etc/shadow
+  409  ls
+  410  cd cs131
+  411  ls
+  412  mkdir Assignment1
+  413  ls
+  414  pwd
+  415  mv Assignment1.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1
+  416  ls
+  417  cd Assignment1
+  418  ls
+  419  echo $SHELL
+  420  echo $HOME
+  421  id
+  422  mkdir myDir
+  423  ls
+  424  man chmod
+  425  chmod u-w myDir
+  426  ls
+  427  cd myDir
+  428  ls
+  429  ls -l
+  430  cd ..
+  431  ls
+  432  ls -l myDir
+  433  cd myDir
+  434  touch sample.txt
+  435  cd ..
+  436  ls
+  437  mkdir myDir2 | mkdir myDir3
+  438  ls
+  439  cd myDir2
+  440  touch myFile.txt
+  441  ls
+  442  mv myFile.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1/myDir3
+  443  ls
+  444  cd ..
+  445  ls
+  446  cd myDir3
+  447  ls
+  448  man free
+  449  free -m
+  450  cat /etc/os-release
+  451  man ls
+  452  ls -l /etc/os-release
+  453  exit
+  454  ls
+  455  mkdir Assignment1
+  456  ls
+  457  mv Assignment1.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1
+  458  ls
+  459  cd Assignment1
+  460  ls
+  461  echo $SHELL
+  462  echo $HOME
+  463  id
+  464  ls
+  465  mk myDir
+  466  mkdir myDir
+  467  chmod u-w myDir
+  468  ls
+  469  ls myDir
+  470  cd myDir
+  471  cd ..
+  472  ls -l myDir
+  473  cd myDir
+  474  touch sample.txt
+  475  cd ..
+  476  ls
+  477  mkdir myDir2 | mkdir myDir3
+  478  ls
+  479  cd myDir2
+  480  ls
+  481  touch myFile.txt
+  482  mv myFile.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Assignment1/myDir3
+  483  ls
+  484  cd ..
+  485  ls
+  486  cd myDir3
+  487  ls
+  488  free -m
+  489  cat /etc/os-release
+  490  ls -l /etc/os-release
+  491  ls
+  492  cd ..
+  493  ls
+  494  history > cmds.log
+  495  ls
+  496  cat cmds.log
+  497  exit
+  498  /etc/os-release
+  499  cd cs131
+  500  ls
+  501  cd Work
+  502  ls
+  503  script Assignment1.txt
+  504  ls
+  505  cd Assignment1
+  506  ls
+  507  history > cmds.log
+  508  vi cmds.log
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd myDir3
+  513  cd Assignment1
+  514  ls
+  515  cd myDir3
+  516  ls
+  517  rm myFile.txt
+  518  touch myFile.txt
+  519  ls
+  520  cd ..
+  521  cd myDir3
+  522  ls
+  523  cd ..
+  524  ls
+  525  rm cmds.log
+  526  cp Assignment1.txt cmds.log
+  527  ls
+  528  vi cmds.log
+  529  ls
+  530  cd ..
+  531  ls
+  532  rm -r Assignment1
+  533  ls
+  534  script
+  535  ls
+  536  rm typescript
+  537  ls
+  538  script Assignment1.txt
+  539  ls
+  540  cd Assignment1
+  541  ls
+  542  vi Assignment1.txt
+  543  cd ..
+  544  ls
+  545  git add .
+  546  git status
+  547  git commit -m "Assignment1 Submission"
+  548  git push
+  549  ls
+  550  git pull
+  551  ls
+  552  cd Assignment1
+  553  ls
+  554  vi cmds.log
+  555  ls
+  556  git add .
+  557  git status
+  558  git commit -m "Assignment1 Submission_cmds.log fix"
+  559  git push
+  560  ls
+  561  git pull
+  562  ls
+  563  cat Ass*.txt
+  564  ls
+  565  cd cs131
+  566  ls
+  567  cd Work
+  568  ls
+  569  mkdir Worksheet4 | touch sample.txt
+  570  ls
+  571  cd Worksheet4
+  572  ls
+  573  touch sample.txt
+  574  cd..
+  575  cd ..
+  576  ls
+  577  rm sample.txt
+  578  ls
+  579  nice
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd lecture
+  584  ls
+  585  parallel echo ::: A B C
+  586  parallel echo A
+  587  parallel
+  588  time
+  589  date
+  590  ls
+  591  $HOME
+  592  ls -l
+  593  ls -ltr
+  594  ls -a
+  595  cd .
+  596  ls
+  597  cd cs131
+  598  ls
+  599  cd Work
+  600  ls
+  601  cd Worksheet4
+  602  ls
+  603  ~/.bashrc
+  604  nano ~/.bashrc
+  605  ls -l | wc
+  606  wc
+  607  vim ~/.bashrc
+  608  source ~/.bashrc
+  609  l
+  610  w
+  611  mkdir Subscribers
+  612  ls
+  613  cd Subscribers
+  614  pwd
+  615  cd ..
+  616  l
+  617  grep "United States" Global YouTube Statistics.csv | cut -d',' -f3 > /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Worksheet4/Subscribers/Subscribers/United_States.txt
+  618  grep "United States" Global$YouTube$Statistics.csv | cut -d',' -f3 > /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Worksheet4/Subscribers/Subscribers/United_States.txt
+  619  grep "United States" Global%20YouTube%20Statistics.csv | cut -d',' -f3 > /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Worksheet4/Subscribers/Subscribers/United_States.txt
+  620  grep "United States" Global*.csv | cut -d',' -f3 > /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Worksheet4/Subscribers/Subscribers/United_States.txt
+  621  grep "United States" Global*.csv | cut -d',' -f3 > /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Worksheet4/Subscribers/'Subscribers/United_States.txt'
+  622  grep "United States" Global*.csv | cut -d',' -f3 > 'Subscribers/United_States.txt'
+  623  ls
+  624  cd Subscribers
+  625  ls
+  626  cat Unit*.txt
+  627  ls
+  628  cd ..
+  629  ls
+  630  grep "India" Global*.csv | cut -d',' -f3 > 'Subscribers/India.txt'
+  631  ls
+  632  cd Subscribers
+  633  ls
+  634  wc -l United_States.txt
+  635  sum=$(paste -sd+ United_States.txt | bc) 
+  636  echo "$(paste -sd+ United_States.txt | bc) / 302" | bc > ws4_means.txt
+  637  ls
+  638  cat ws*.txt
+  639  awk '{total += $1 } END {print total / NR}' United_States.txt >> ws4_means.txt
+  640  cat ws4*.txt
+  641  awk '{total += $1 } END {print total / NR}' India.txt >> ws4_means.txt
+  642  cat ws4*.txt
+  643  vim ws*.txt
+  644  ls
+  645  history >cmds.log
+  646  ls
+  647  exit
+  648  cd cs131
+  649  cd Work
+  650  cd Worksheet4
+  651  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  652  ls
+  653  script ws4.txt
+  654  ls
+  655  cd Subsribers
+  656  cd Subs*
+  657  ls
+  658  cd ..
+  659  ls
+  660  cd ..
+  661  ls
+  662  git add .
+  663  git status
+  664  git commit -m "Worksheet4 Submission"
+  665  git push
+  666  git pull
+  667  cd
+  668  ls
+  669  cd cs131
+  670  cd Work
+  671  cd Worksheet4
+  672  ls
+  673  cd Subs*
+  674  ls
+  675  mv ws4)means.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Worksheet4
+  676  mv ws4_means.txt /mnt/scratch/FA23_CS131_Ashish/junf23/cs131/Work/Worksheet4
+  677  ls
+  678  cd ..
+  679  ls
+  680  git add.
+  681  git add .
+  682  ls
+  683  git status
+  684  git commit -m "Worksheet4 ws4_means directory fix"
+  685  git push
+  686  git pull
+  687  ls
+  688  pwd
+  689  cd ..
+  690  ls
+  691  cd junf23/
+  692  ls
+  693  tmux ls
+  694  exit
+  695  find /etc -type f > one.txt 2> two.txt
+  696  ls
+  697  cat one.txt | cat two.txt
+  698  cat one.txt
+  699  echo ************************************************
+  700  ls
+  701  cut -d',' f20,21 Global*.csv > channelsCut.txt
+  702  cut -d',' -f20,21 Global*.csv > channelsCut.txt
+  703  vi channelsCut.txt
+  704  sort -t',' -k2,2 -k1,1n channelsCut.txt > channelsSorted.txt
+  705  vi channelsSorted.txt
+  706  uniq -c channelsSorted.txt | sort-nr > channelsSortedCounted.txt
+  707  uniq -c channelsSorted.txt | sort -nr > channelsSortedCounted.txt
+  708  vi channelsSortedC*
+  709  cat channelsSortedCounted.txt
+  710  echo *************************************
+  711  ps -u junf23
+  712  echo ****************Question 4 *******************
+  713  vi file.txt
+  714  echo *************************Question 5 ***********************
+  715  ps aux | grep "systemd"
+  716  echo ****************************Question6***************************
+  717  history > cmds.log
+  718  exit
+  719  ls
+  720  cd cs131
+  721  cd lecture
+  722  ls
+  723  cd Ass*
+  724  ls
+  725  vi file.txt
+  726  ls
+  727  cd ..
+  728  cd Work
+  729  ls
+  730  cd ..
+  731  cd Work
+  732  cd Assignment2
+  733  ls
+  734  vi file.txt
+  735  ls
+  736  vi Assignment2.txt
+  737  ls
+  738  $HOME
+  739  ls
+  740  cd cs131
+  741  ls
+  742  cd lecture
+  743  ls
+  744  mkdir Assignment2Practice
+  745  ls
+  746  cd Ass8
+  747  cd Ass*
+  748  ls
+  749  find /etc -type f > one.txt 2> two.txt
+  750  ls
+  751  cat one*
+  752  cat two*
+  753  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  754  cut -d',' f20,21 Global\Youtube\Statistics.csv > channelsByMonthYear.txt
+  755  ls
+  756  vi channel*
+  757  cut -d',' -f20,21 Global\Youtube\Statistics.csv > channelsByMonthYear.txt
+  758  cut -d',' -f20,21 Global\ Youtube\ Statistics.csv > channelsByMonthYear.txt
+  759  ls
+  760  cut -d',' -f20,21 Global*.csv > channelsByMonthYear.txt
+  761  vi channels*
+  762  sort -t',' -k 1,1n channels*.txt > sortyearfirst.txt
+  763  ls
+  764  vi sortyear*
+  765  sort -t',' -k2,2 sortyearfirst.txt
+  766  vi sortyear*
+  767  uniq -c sortyear*.txt | sort -nr > countyearfirst.txt
+  768  ls
+  769  vi countyear*
+  770  sort -t',' -k 2,2 -k 1,1n channels*.txt > sortmonthfirst.txt
+  771  vi sortmonth*
+  772  uniq -c sortmonth*.txt | sort -nr > countmonthfirst.txt
+  773  ls
+  774  vi countmonth*
+  775  vi countyear*
+  776  ps -junf23
+  777  ps -u junf23
+  778  vi file.txt
+  779  ps -u junf23
+  780  pgrep systemd
+  781  ps aux
+  782  ps aux | grep "systemd"
+  783  ps 
+  784  ls
+  785  cd ..
+  786  d..
+  787  cd ..
+  788  ls
+  789  cd Work
+  790  ls
+  791  mkdir Assignment2
+  792  cd Assignment2
+  793  ls
+  794  script Assignment2.txt
+  795  rm Assignment2.txt
+  796  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  797  ls
+  798  script Assignment2.txt
+  799  ls
+  800  vi cmds.log
+  801  ls
+  802  vi cmds.log
+  803  ls
+  804  vi cmds.log
+  805  ps -u junf23
+  806  vi cmds.log
+  807  vi channelsSortedCount*
+  808  vi cmds.log
+  809  cd ..
+  810  ls
+  811  git add .
+  812  git status
+  813  git commit -m "Assignment2 Submission"
+  814  git push
+  815  git pull
+  816  ls
+  817  cd
+  818  ls
+  819  cd cs131
+  820  ls
+  821  cd lecture
+  822  ls
+  823  which bash
+  824  ls -ltr b.txt
+  825  /.b.txt
+  826  ./b.txt
+  827  chmod u +rx b.txt
+  828  chmod u+rx b.txt
+  829  ./b.txt
+  830  vi b.txt
+  831  ./b.txt
+  832  #!/bin/bash
+  833  which bash
+  834  vi b.txt
+  835  ./b.txt
+  836  vi b.txt
+  837  ./b.txt
+  838  vi helloscript.txt
+  839  chmod u+x hello*.txt
+  840  ./hello*.txt
+  841  vi hello*.txt
+  842  bash helloscript
+  843  ls
+  844  mv helloscript.txt helloscript
+  845  ls
+  846  bash helloscript
+  847  sh helloscript
+  848  ls
+  849  source helloscript
+  850  . helloscript
+  851  vi helloscript
+  852  bash helloscript
+  853  vi helloscript
+  854  bash helloscript
+  855  vi pos.sh
+  856  bash pos.sh DrPepper Pizza Mayo
+  857  ls
+  858  whoami
+  859  ls
+  860  cd cs131
+  861  ls
+  862  cd Work
+  863  ls
+  864  mkdir Worksheet5
+  865  cd Worksheet5
+  866  ls
+  867  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  868  ls
+  869  git add.
+  870  git add .
+  871  git status
+  872  cd ..
+  873  ls
+  874  git add .
+  875  git status
+  876  git commit -m "Worksheet5 started"
+  877  git push
+  878  git pull
+  879  ls
+  880  cd Worksheet5
+  881  ls
+  882  lsssss/
+  883  ls
+  884  cd cs131
+  885  ls
+  886  cd Work
+  887  ls
+  888  cd Worksheet5
+  889  ls
+  890  touch script1.sh
+  891  vi script1.sh
+  892  ls
+  893  cd ..
+  894  ls
+  895  vi script.sh
+  896  mkdir United States
+  897  ls
+  898  rmdir States
+  899  rmdir United
+  900  ls
+  901  mkdir United_States
+  902  cd United_States
+  903  ls
+  904  touch Entertainment.txt
+  905  touch Music.txt
+  906  touch Gaming.txt
+  907  touch Comedy.txt
+  908  vi script.txt
+  909  ls
+  910  rm script.txt
+  911  cd ..
+  912  ls
+  913  vi script.sh
+  914  bash script.sh
+  915  ls
+  916  cd United_States
+  917  ls
+  918  wc -l Music.txt
+  919  wc -l Entertainment.txt
+  920  wc -l Gaming.txt
+  921  wc -l Comedy.txt
+  922  ls
+  923  cd ..
+  924  ls
+  925  history > cmds.log
+  926  ls
+  927  exit
+  928  cd cs131
+  929  ls
+  930  cd Work 
+  931  ls
+  932  cd Worksheet5
+  933  ls
+  934  vi script1.sh
+  935  rm script1.sh
+  936  ls
+  937  script ws5.txt
+  938  vi ws5.txt
+  939  vi cmds.log
+  940  sed '1,964d' cmds.log > cmds.log
+  941  vi cmds.log
+  942  ls
+  943  cat cmds.log
+  944  vi cmds.log
+  945  vi ws5.txt
+  946  vi cmds.log
+  947  cat cmds.log
+  948  ls
+  949  git add .
+  950  git status
+  951  ls
+  952  git commit -m "Worksheet5 Submission"
+  953  git push
+  954  git pull
+  955  ls
+  956  cd cs131
+  957  ls
+  958  cd Work
+  959  ls
+  960  mkdir Assignment3
+  961  cd Ass*
+  962  cd Assignment3
+  963  ls
+  964  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/last.fake
+  965  wget https://raw.github.com/khanchandaniashish/CS131/main/blob/main/awkdata/passwd.fake
+  966  wget https://raw.github.com/khanchandaniashish/CS131//blob/main/awkdata/passwd.fake
+  967  wget https://raw.github.com/khanchandaniashish/CS131/blob/main/awkdata/passwd.fake
+  968  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/blob/main/awkdata/passwd.fake
+  969  wget https://github.com/khanchandaniashish/CS131/blob/main/awkdata/ps.fake
+  970  vi passwd.fake
+  971  vi ps.fake
+  972  vi last.fake
+  973  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/passwd.fake
+  974  ls
+  975  rm passwd.fake
+  976  vi passwed.fake.1
+  977  vi passwd.fake.1
+  978  ls
+  979  rm passwed.fake.1
+  980  rm passwd.fake.1
+  981  ls
+  982  rm ps.fake
+  983  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/passwd.fake
+  984  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/awkdata/ps.fake
+  985  ls
+  986  vi ps.fake
+  987  ls
+  988  git add .
+  989  git commit -m "Assignment3 start"
+  990  git push
+  991  ls
+  992  git pull
+  993  ls
+  994  touch task2.fake
+  995  vi task2.fake
+  996  script Assignment3 > Assignment3_script.txt
+  997  wc -l last.fake
+  998  grep "f23" last.fake > lastf23.fake
+  999  wc -l lastf23.fake
+ 1000  ls
+ 1001  vi task2.fake
+ 1002  bash task2.fake
+ 1003  vi task3.fake
+ 1004  bash task3.fake
+ 1005  vi task3.fake
+ 1006  bash task3.fake
+ 1007  vi task3.fake
+ 1008  ls
+ 1009  vi task3.fake
+ 1010  bash task3.fake
+ 1011  vi task3.fake
+ 1012  bash task3.fake
+ 1013  vi task3.fake
+ 1014  bash task3.fake
+ 1015  vi task3.fake
+ 1016  bash task3.fake
+ 1017  vi task3.fake
+ 1018  vi task4.fake
+ 1019  bash task4.fake
+ 1020  ls
+ 1021  awk '/^t/ {print$1}' lastf23.fake | sort | uniq
+ 1022  awk -F: '$1 ~/^[aA]/ && $3 % 2 == 0 {print$1}' passwd.fake | sort | uniq
+ 1023  sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u 
+ 1024  echo Task 3 ******* | awk -F' ' '($7 >= "23:00" || $7 <= "04:00") && ($9 >= "23:00" || $9 <= "04:00") {print$1}' lastf23.fake | sort | uniq
+ 1025  echo "Task 4 *******" | awk -F' ' '($7 >= "05:00" && $7 <= "09:00") && ($9 >= "05:00" && $9 <= "09:00") {print$1}' lastf23.fake | sort | uniq
+ 1026  history > cmds.log

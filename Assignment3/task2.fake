@@ -1,0 +1,16 @@
+#!/bin/bash
+
+grep "Sun" lastf23.fake | awk 'BEGIN {
+	print "The list of people who worked on Sunday are:"
+	}
+
+	{
+		sunday_ppl[$1] = 1;
+	}
+
+	END {
+		for (user in sunday_ppl){
+			print user;
+		}
+		print "Kudos to these people for putting in the work"
+		}'

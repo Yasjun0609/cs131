@@ -1,0 +1,26 @@
+#!/bin/bash
+
+ awk 'BEGIN {
+ 
+     print "Night Owls List:"
+  }
+     {
+         if ($3 == ""){
+         $7 = $6;
+	 $9 = $8;
+         }
+ 
+     if (( $7 >= "23:00" || $7 <= "04:00") && ($8 >= "23:00" || $8 <= "04:00")){
+          night_owls[$1] = 1;
+         
+         }
+ }
+ END {                                                                                                                                                     
+         {
+         for (user in night_owls){
+             print user;
+         }
+ 
+         }
+     print "Night Owls are dope. Please ensure you get enough sleep though."
+ }' lastf23.fake

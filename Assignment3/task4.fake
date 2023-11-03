@@ -1,0 +1,26 @@
+#!/bin/bash
+
+ awk 'BEGIN {
+
+     print "Early Birds List:"
+  }
+     {
+         if ($3 == ""){
+         $7 = $6;
+         }
+
+     if (( $7 >= "05:00" && $7 <= "09:00") && ($9 >= "05:00" || $9 <= "09:00")){
+          early_birds[$1] = 1;
+
+         }
+ }
+ END {
+         {
+         for (user in early_birds){
+             print user;
+         }
+
+         }
+     print "Early Birds are dope. Please ensure you get enough sleep though."
+ }' lastf23.fake
+
