@@ -4,9 +4,9 @@ Task 1:
 
 Commands used to solve:
 
-wc -l last.fake
-grep "f23" last.fake > lastf23.fake
-wc -l lastf23.fake
+$ wc -l last.fake
+$ grep "f23" last.fake > lastf23.fake
+$ wc -l lastf23.fake
 
 Output of command: 
 
@@ -18,7 +18,8 @@ Task 2:
 
 Commands used to solve:
 
-bash task2.fake
+$ grep "Sun" lastf23.fake | awk '{print$1}' | sort | uniq
+$ bash task2.fake
 
 Output of command:
 
@@ -32,8 +33,8 @@ Kudos to these people for putting in the work
 Task 3:
 
 Commands used to solve:
-
-bash task3.fake
+$ awk -F' ' '($7 >= "23:00" || $7 <= "04:00") && ($9 >= "23:00" || $9 <= "04:00") {print$1}' lastf23.fake | sort | uniq
+$ bash task3.fake
  
 Output of command:
 
@@ -57,8 +58,8 @@ Night Owls are dope. Please ensure you get enough sleep though.
 Task 4:
 
 Commands used to solve:
-
-bash task4.fake
+$ awk -F' ' '($7 >= "05:00" && $7 <= "09:00") && ($9 >= "05:00" && $9 <= "09:00") {print$1}' lastf23.fake | sort | uniq
+$ bash task4.fake
  
 Output of command:
 
@@ -75,7 +76,7 @@ Task 5:
 
 Commands used to solve:
 
-awk '/^t/ {print$1}' lastf23.fake | sort | uniq
+$ awk '/^t/ {print$1}' lastf23.fake | sort | uniq
  
 Output of command:
 
@@ -87,7 +88,7 @@ Task 6:
 
 Commands used to solve:
 
-awk -F: '$1 ~/^[aA]/ && $3 % 2 == 0 {print$1}' passwd.fake | sort | uniq
+$ awk -F: '$1 ~/^[aA]/ && $3 % 2 == 0 {print$1}' passwd.fake | sort | uniq
  
 Output of command:
 
@@ -103,7 +104,7 @@ Task 7:
 
 Commands used to solve:
 
-sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u 
+$ sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u 
  
 Output of command:
 
