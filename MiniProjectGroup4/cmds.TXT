@@ -1,0 +1,50 @@
+To find number of records:
+
+wc -l Partially\ Cleaned\ Salary\ Dataset.csv
+
+To find unique cities in India:
+
+awk - F’,’ ‘{print$5} “Partially\ Cleaned\ Salary\ Dataset.csv” | sort | uniq 
+
+To find total reported salaries:
+
+awk -F’,’ ‘{sum+=$4} END {print sum}’“Partially\ Cleaned\ Salary\ Dataset.csv” 
+
+To find Datascientists:
+
+grep “Data Scientist” “Partially\ Cleaned\ Salary\ Dataset.csv” >> DScount.txt
+
+To find total reportings from data scientists:
+
+awk -F’,’ ‘{sum+=$4} END {print sum}’ DScount.txt
+
+
+Location and Salary:
+
+awk -F',' '{print $5 "," $6}' Partially\ Cleaned\ Salary\ Dataset.csv > location_salary.csv
+
+Job Title and Salary:
+
+awk -F',' '{print $3 "," $6}' Partially\ Cleaned\ Salary\ Dataset.csv > job_title_salary.csv
+
+Average Salary for Data Scientist:
+
+data_scientist_data = data[data['Job Title'] == 'Data Scientist']
+
+average_salary_data_scientist = data_scientist_data['Salary'].mean()
+
+print(f"The average salary of Data Scientists is: {average_salary_data_scientist:.2f}")
+
+
+Average salary for one location:
+
+location = 'Bangalore' 
+
+filtered_data = data[data['Location'] == location]
+
+average_salary = filtered_data['Salary'].mean()
+
+print(f"The average salary in {location} is: {average_salary:.2f}")
+
+
+
